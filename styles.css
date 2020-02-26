@@ -1,0 +1,14 @@
+.container {
+    background: rgb(247, 249, 250);
+    width: 100%;
+  }
+  
+  .main {
+    margin-top: 50px;
+    width: 100%;
+    padding: 40px;
+  }
+  
+  h2 {
+    border-bottom: 1px solid rgb(192, 187, 187);
+  
