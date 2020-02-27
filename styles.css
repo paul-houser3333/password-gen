@@ -12,3 +12,40 @@
   h2 {
     border-bottom: 1px solid rgb(192, 187, 187);
   
+}
+  
+textarea {
+  width: 100%;
+  border: dashed 1px rgb(138, 133, 133);
+  text-align: inherit;
+}
+
+#myRange {
+  width: 100%;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    border-radius: 16px;
+    width: 150px;
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center; 
+}
+
+.red {
+  background: rgb(247, 36, 36);
+  float: left;
+}
+
+.white {
+  float: right;
+}
+
+#range {
+  text-align: center;
+}
