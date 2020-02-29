@@ -1,15 +1,15 @@
 .container {
-    background: rgb(247, 249, 250);
+    background: rgb(247, 250, 103);
     width: 100%;
   }
   
-  .main {
+.main {
     margin-top: 50px;
     width: 100%;
     padding: 40px;
   }
   
-  h2 {
+h2 {
     border-bottom: 1px solid rgb(192, 187, 187);
   
 }
@@ -20,32 +20,30 @@ textarea {
   text-align: inherit;
 }
 
-#myRange {
+#myCode {
   width: 100%;
+  
 }
 
 button {
     font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857;
     padding: 6px 12px;
     border-radius: 16px;
     width: 150px;
-    cursor: pointer;
     vertical-align: middle;
     white-space: nowrap;
     text-align: center; 
 }
 
-.red {
-  background: rgb(247, 36, 36);
+.green {
+  background: rgb(30, 189, 9);
   float: left;
 }
 
-.white {
+.purple {
+  background: blueviolet;
   float: right;
 }
 
-#range {
-  text-align: center;
-}
+
+

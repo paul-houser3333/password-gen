@@ -10,8 +10,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-
+    
 </head>
 
 <body>
@@ -30,13 +29,16 @@
                      </textarea><br>
 
                     <!--Slide Selector-->
-                    <input type="range" min="8" max="128" value="50" class="slider" id="myCode"><br>
-
-                    <!--Button Generate Pass-->
-                    <button onclick="generate()" class="red">Generate Password</button>
+                    <div class="slidecontainer">
+                        <input type="range" min="8" max="128" value="50" id="myCode">
+                        <p>Value: <span id="character"></span></p>
+                      </div><br>
+                    
+                      <!--Button Generate Pass-->
+                    <button onclick="generate()" class="green"><b>Generate Password</b></button>
 
                     <!--Button to Copy Pass-->
-                    <button onclick="copyPassword()" class="white">Copy to Clipboard</button>
+                    <button onclick="copyPassword()" class="purple"><b>Copy to Clipboard</b></button>
                     <div id="range"></div>
 
                 </div>
